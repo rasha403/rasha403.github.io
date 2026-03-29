@@ -21,12 +21,13 @@ export default function Contact() {
           </div>
         </Card>
 
-        <Card>
-          <h2 className="text-base font-semibold text-white">Note</h2>
-          <p className="mt-2 text-sm text-zinc-400">
-            Replace the placeholders in <span className="text-zinc-200 font-semibold">src/data/portfolioData.js</span>.
-          </p>
-        </Card>
+        <div className="flex items-center justify-center rounded-2xl border border-gray-200 bg-white p-6">
+  <img
+    src="/images/contact/rasha.jpeg"
+    alt="Your profile"
+    className="h-64 w-64 rounded-2xl object-cover shadow-sm"
+  />
+</div>
       </section>
     </div>
   );

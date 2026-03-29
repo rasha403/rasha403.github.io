@@ -47,21 +47,16 @@ function Hero() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="absolute -right-12 -top-12 h-48 w-48 rounded-full bg-[#6b0f1a]/35 blur-3xl" />
-          <div className="grid gap-3 rounded-3xl border border-white/10 bg-[#0b0b0d]/40 p-4 ring-1 ring-white/10">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-zinc-300">Highlights</span>
-              <span className="text-xs text-zinc-500">{BRAND.location}</span>
-            </div>
-            <div className="grid gap-3 sm:grid-cols-2">
-              <MiniCard title="UI/UX" value="Clean & modern" />
-              <MiniCard title="Performance" value="Fast & responsive" />
-              <MiniCard title="Tech" value="React • Flutter" />
-              <MiniCard title="Quality" value="Readable code" />
-            </div>
-          </div>
-        </div>
+        <div className="relative flex justify-center md:justify-end">
+  <div className="w-full max-w-md overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
+    <img
+      src="/images/contact/rashaComputer.png"
+      alt="Developer working on laptop"
+      className="h-full w-full object-cover"
+      loading="lazy"
+    />
+  </div>
+</div>
       </div>
     </section>
   );

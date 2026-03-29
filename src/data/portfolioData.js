@@ -3,7 +3,7 @@
 // ================================
 export const BRAND = {
     name: "Rasha Al Haj Hasan",
-    role: "Mobile Application Developer (Flutter & React Native)",
+    role: "Mobile Application Developer",
     location: "Beirut, Lebanon",
     tagline:
       "I build secure, scalable mobile applications and modern web experiences with clean architecture and strong business logic.",
@@ -116,14 +116,14 @@ export const BRAND = {
       title: "Food Recipe Mobile App",
       summary:
         "A multi-language Flutter recipe application with offline storage, nutrition calculation, and favorite recipes management.",
-      stack: ["Flutter", "SQLite"],
+      stack: ["Flutter", ".Net" , "SQL Server"],
       links: {
         live: "",
         github: "",
       },
       media: {
-        cover: "/images/recipe-app.jfif",
-        gallery: [],
+        cover: "/images/receipe/v15.jpeg",
+        gallery: ["/images/receipe/v1.jpeg","/images/receipe/v11.jpeg","/images/receipe/v111.jpeg","/images/receipe/v1111.jpeg"],
         video: "",
       },
       featured: false,
