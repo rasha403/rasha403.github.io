@@ -83,6 +83,7 @@ export default function TopBar() {
           <NavItem to="/experience" label="Experience" />
           <NavItem to="/about" label="About" />
           <NavItem to="/contact" label="Contact" />
+          <NavItem to="/certificates" label="Certificates" />
         </nav>
 
         <MobileNav />
